@@ -5,10 +5,10 @@
     //which is resolve function(When promise is -in success)
     // and reject function (when promise is in fail)
 <br/>
-Pending: A pending Promise hasn't begun its operations yet.
-Fulfilled: When a promise resolves after its operations finished.
-Rejected: When a promise fails to complete its operations successfully.
-
+    * Pending: A pending Promise hasn't begun its operations yet.
+    * Fulfilled: When a promise resolves after its operations finished.
+    * Rejected: When a promise fails to complete its operations successfully.
+<br/>
 
 ![alt text](/class-notes-pic/image.png)
 
