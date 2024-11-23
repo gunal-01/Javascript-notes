@@ -15,6 +15,3 @@
 
 
 
-<h1>DOM Tree Structure</h1>
-
-![alt text](class-notes-pic/Dom-Tree-structure.png)
