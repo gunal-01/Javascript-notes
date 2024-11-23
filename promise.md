@@ -10,9 +10,6 @@
     * Rejected: When a promise fails to complete its operations successfully.
 <br/>
 
-![alt text](/class-notes-pic/image.png)
-
-<br/>
 
 ![alt text](/class-notes-pic/image-1.png)
 
