@@ -16,3 +16,8 @@
 
 ![alt text](/class-notes-pic/image-1.png)
 
+
+
+<h1>DOM Tree Structure</h1>
+
+![alt text](class-notes-pic/Dom-Tree-structure.png)
