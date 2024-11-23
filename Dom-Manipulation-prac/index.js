@@ -8,4 +8,21 @@
      
    * DOM API provides a set of functions and methods to 
      modify the HTML document dynamically via JavaScript.
+     
 */
+/*--------------------------------------------------------------------------------------------*/
+//getElementsByID() || One of the best example for knowing why we use getElementsByID
+
+/*
+let textArray = ["hello javascript!", " Hi, There! "];
+
+let index = 0;
+
+function changeText() {
+  let element = document.getElementById("first");
+  element.innerHTML = textArray[index];
+  index = (index + 1) % textArray.length; // loop back to the first text when the end is reached.
+}
+*/ 
+
+/*--------------------------------------------------------------------------------------------*/
