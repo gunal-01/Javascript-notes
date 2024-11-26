@@ -1,3 +1,5 @@
+/*---------------[1] querySelector--------------------------------------------------------------- */
+
 // const h1 = document.querySelector('h1');
 // h1.textContent = 'Hi Js';
 // console.log(h1.textContent);
@@ -10,8 +12,10 @@
      modify the HTML document dynamically via JavaScript.
      
 */
+
+
 /*--------------------------------------------------------------------------------------------*/
-//getElementsByID() || One of the best example for knowing why we use getElementsByID
+// [2] getElementByID() || One of the best example for knowing why we use getElementByID
 
 /*
 let textArray = ["hello javascript!", " Hi, There! "];
@@ -24,5 +28,12 @@ function changeText() {
   index = (index + 1) % textArray.length; // loop back to the first text when the end is reached.
 }
 */ 
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------[3] getElementsByName---------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------------------------------------*/
