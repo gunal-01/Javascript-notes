@@ -21,30 +21,31 @@
 //   index = (index + 1) % textArray.length; // loop back to the first text when the end is reached.
 // }
 
-// [3] getElementsByName
-function submitSurvey() {
-  const form = document.getElementById('surveyForm');
+// [3] getElementsByName 
+// function submitSurvey() {
+//   const form = document.getElementById('surveyForm');
 
-  // Get elements by name for each question
-  const question1Answers = document.getElementsByName('question1');
-  const question2Answers = document.getElementsByName('question2');
+//   // Get elements by name for each question
+// /*  const question1Answers = document.getElementsByName('question1');
+//   const question2Answers = document.getElementsByName('question2'); */
 
-  // Function to get the selected value
-  function getSelectedValue(elements) {
-    for (let i = 0; i < elements.length; i++) {
-      if (elements[i].checked) {
-        return elements[i].value;
-      }
-    }
-    return null; // No option selected
-  }
+//   // Function to get the selected value
+//   /*function getSelectedValue(elements) {
+//     for (let i = 0; i < elements.length; i++) {
+//       if (elements[i].checked) {
+//         return elements[i].value;
+//       }
+//     }
+//     return null; // No option selected
+//   }
+//   */
 
-  // Get selected values
-  const selectedQuestion1 = getSelectedValue(question1Answers);
-  const selectedQuestion2 = getSelectedValue(question2Answers);
+//   // Get selected values
+//   /*const selectedQuestion1 = getSelectedValue(question1Answers);
+//   const selectedQuestion2 = getSelectedValue(question2Answers);*/
 
-  // Display the results
-  alert(`Selected answers:
-  Question 1: ${selectedQuestion1}
-  Question 2: ${selectedQuestion2}`);
-}
+//   // Display the results
+// /*alert(`Selected answers:
+//   Question 1: ${selectedQuestion1}
+//   Question 2: ${selectedQuestion2}`);*/
+// }
