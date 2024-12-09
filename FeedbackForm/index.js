@@ -16,18 +16,20 @@ submitButton.addEventListener("click", () => {
   const feedback = document.getElementById("feedback").value.trim();
 
   // Validation checks with specific messages
+  
   if (!name) {
     alert("Please enter your name.");
     return;
   }
-  if (!email) {
+   if (!email) {
     alert("Please enter your email.");
     return;
   }
-  if (!feedback) {
+   if (!feedback) {
     alert("Please provide your feedback.");
     return;
   }
+  else {
 
   // Displaying the output
   outputDiv.innerHTML = `
@@ -36,6 +38,7 @@ submitButton.addEventListener("click", () => {
     <p><strong>Email:</strong> ${email}</p>
     <p><strong>Feedback:</strong> ${feedback}</p>
   `;
+  }
 });
 
 // Styling the output using getElementsByClassName()
