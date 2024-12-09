@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Family tree Viewer</h1>
+    <ul class="tree">
+        <li id="grandparent">Grandparent
+            <ul>
+                <li id="parent1"> Parent 1
+                    <ul>
+                        <li id="child1">Child 1</li>
+                        <li id="child2">Child 2</li>
+                    </ul>
+                </li>
+                <li id="parent2">Parent 2
+                    <ul>
+                        <li id="child3">Child 3</li>
+                        <li id="child4">Child 4</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="controls">
+        <button id="getParent">Get Parent</button>
+        <button id="getChildren">Get Children</button>
+        <button id="getNextSibling">Get Next Sibling</button>
+        <button id="getPreviousSibling">Get Previous Sibling</button>
+    </div>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
